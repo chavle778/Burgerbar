@@ -1,0 +1,262 @@
+html{
+  font-family:'Oswald', sans-serif;
+}
+
+#main-specdiv{
+  margin-top: -40px;
+  background-image: url('bgImg.avif');
+}
+
+nav a:hover{
+  color: #ffba00;
+}
+
+nav a{
+  transition: 0.35s;
+}
+
+#spec-h1{
+  font-family:'Oswald', sans-serif;
+  line-height: 55px;
+}
+
+.burger:hover{
+  transform: translateY(-10px);
+}
+
+.burger{
+  transition: 0.35s;
+}
+
+#food-div{
+  background-image: url('/cheeseburger.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#food-div2{
+  background-image: url('/chips.png');
+  background-size: cover;
+  background-position: center;
+  transform: rotate(95deg);
+}
+
+button{
+  cursor: pointer;
+}
+
+#nav-icon{
+  display: none;
+}
+
+#bg-image{
+  width: 100%;
+  height: 500px;
+  background-image: url('/public/bgimage.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#juicy-burger{
+  background-image: url('juicyburger.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#food{
+  background-image: url('food.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#shake{
+  background-image: url('shake.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-divs{
+  background-color: rgb(23, 23, 23);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.30s;
+}
+
+#main-food{
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.30s;
+  background-color: #ffba00;
+  color: black;
+}
+
+.menu-divs:hover{
+  background-color: #ffba00;
+  color: black;
+}
+
+#food-div3{
+  background-image: url('/drink.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.burger-divs{
+  transition: 0.30s;
+  cursor: pointer;
+}
+
+#foot-div p{
+  transition: 0.45s;
+  cursor: pointer;
+}
+
+#foot-div p:hover{
+  color: #ffba00;
+}
+
+.burger-divs:hover{
+  background-color: #ffba00;
+}
+
+.burger-divs:hover .spec-img{
+  transform: scale(1.1); 
+}
+
+.foot-icon{
+  transition: transform 0.3s;
+}
+
+.foot-icon:hover{
+  color: white;
+  animation: animaIcons 1s infinite;
+}
+
+@keyframes animaIcons {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+
+.spec-img{
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes floatBurger {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.app{
+  transition: 0.55s;
+}
+
+.app:hover{
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width:917px) {
+  #main-div{
+   justify-content: center; 
+  }
+}
+
+@media screen and (max-width:865px){
+  #icons-div{
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .burger {
+    animation: floatBurger 2s ease-in-out infinite;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  nav {
+    display: none;
+  }
+
+  #nav-icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width:1023px){
+  .spec-div{
+    margin: auto;
+  }
+  #juicyburger-div{
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:767px){
+  .text-div{
+    text-align: left;
+  }
+  .title{
+    font-size: 1.5rem;
+  }
+  .text{
+    font-size: 1.1rem;
+  }
+  
+}
+
+@media screen and (max-width:871px){
+  .spec-div2{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:464px) {
+  .parent-menu{
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width:1023px){
+  #phone-img{
+    margin: auto;
+  }
+  #inp-div{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:767px){
+  #phone-img{
+    width: 400px;
+  }
+  #grid-divs{
+   place-items: center; 
+  }
+  #fresh-div{
+    margin-left: 40px;
+  }
+  #health-div{
+    margin-left: 35px;
+  }
+  #service-div{
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width:404px){
+  #grid-divs{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,11 @@
+#bg-head{
+    background-image: url('friends.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:767px){
+    #contact-div{
+        margin: auto;
+    }
+}
