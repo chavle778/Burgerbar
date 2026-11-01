@@ -7,7 +7,7 @@ import { FaCheck, FaArrowRight } from 'react-icons/fa';
 
 import Navbar from './navbar';
 import SiteFooter from './siteFooter';
-import { Reveal } from './reveal';
+import { Reveal } from './Reveal';
 
 import './About.css';
 import './Contact.css'; // keeps your existing #bg-head photo
