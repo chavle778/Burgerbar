@@ -4,11 +4,10 @@ import { CiDeliveryTruck } from 'react-icons/ci';
 import { FaRegMoneyBillAlt } from 'react-icons/fa';
 import { IoClose, IoBagHandleOutline } from 'react-icons/io5';
 
-import Navbar from './Navbar';
-import VideoBanner from './VideoBanner';
-import SiteFooter from './SiteFooter';
+import Navbar from './navbar';
+import VideoBanner from './videoBanner';
+import SiteFooter from './siteFooter';
 import { Reveal } from './Reveal';
-
 import './About.css';
 
 const TABS = [
