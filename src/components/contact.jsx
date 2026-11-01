@@ -7,9 +7,8 @@ import { FaCheck, FaArrowRight } from 'react-icons/fa';
 
 import Navbar from './navbar';
 import SiteFooter from './siteFooter';
-import { Reveal } from './Reveal';
+import { Reveal } from './Reveal'; 
 
-import './About.css';
 import './Contact.css'; // keeps your existing #bg-head photo
 
 const ADDRESS_LINE_1 = 'Jl. Pantai Kuta No. 34,';

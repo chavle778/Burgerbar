@@ -1,5 +1,5 @@
 #bg-head{
-    background-image: url('friends.jpg');
+    background-image: url('/friends.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -8,4 +8,4 @@
     #contact-div{
         margin: auto;
     }
-}
+} 
