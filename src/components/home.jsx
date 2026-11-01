@@ -94,7 +94,7 @@ const Title = ({ children, sub }) => (
     <div className="mx-auto mt-4 h-1 w-24 rounded bg-gradient-to-r from-[#ffba00] to-[#ff7a00]" />
     {sub && <p className="mx-auto mt-6 max-w-xl text-[#9a9a9a]">{sub}</p>}
   </Reveal>
-);
+); img
 
 const LOREM = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.";
 
@@ -223,7 +223,7 @@ function Home() {
 
       {/* ---------- ABOUT ---------- */}
       <Container className="mt-28 grid items-center gap-12 lg:grid-cols-2">
-        <Reveal dir="left"><Tilt max={8}><img src="homemade.jpg" alt="burger" className="mx-auto w-full max-w-[520px] rounded-3xl object-cover shadow-2xl shadow-black lg:max-w-none" /></Tilt></Reveal>
+        <Reveal dir="left"><Tilt max={8}><img src="/homemade.jpg" alt="burger" className="mx-auto w-full max-w-[520px] rounded-3xl object-cover shadow-2xl shadow-black lg:max-w-none" /></Tilt></Reveal>
         <div className="mx-auto max-w-xl text-center lg:text-left">
           <Reveal dir="right"><h2 className="display text-4xl uppercase sm:text-5xl">Find your best tasted food &amp; drink <span className="gold-text">in one place</span></h2></Reveal>
           <Reveal dir="right" delay={120}><p className="mt-5 text-[#a0a0a0]">{LOREM} Cum sociis natoque penatibus et magnis dis parturient montes.</p></Reveal>
@@ -303,8 +303,8 @@ function Home() {
           </div>
           <Reveal delay={400}>
             <div className="mt-8 flex justify-center gap-4 lg:justify-start">
-              <img src="apple.png" alt="apple" className="w-[130px] cursor-pointer transition hover:scale-105 sm:w-[150px]" />
-              <img src="google-play.png" alt="google play" className="w-[130px] cursor-pointer transition hover:scale-105 sm:w-[150px]" />
+              <img src="/apple.png" alt="apple" className="w-[130px] cursor-pointer transition hover:scale-105 sm:w-[150px]" />
+              <img src="/google-play.png" alt="google play" className="w-[130px] cursor-pointer transition hover:scale-105 sm:w-[150px]" />
             </div>
           </Reveal>
         </div>
@@ -321,7 +321,7 @@ function Home() {
                   <div className="relative h-full rounded-2xl border border-white/5 bg-black p-6">
                     <p className="mb-6 text-[#b0b0b0]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     <div className="flex items-center gap-4">
-                      <img src={`john${i}.jpg`} alt="john doe" className="h-12 w-12 rounded-full object-cover ring-2 ring-[#ffba00]" />
+                      <img src={`/john${i}.jpg`} alt="john doe" className="h-12 w-12 rounded-full object-cover ring-2 ring-[#ffba00]" />
                       <div><h4 className="font-bold uppercase">John Doe</h4><p className="text-sm text-[#8a8a8a]">Designation</p></div>
                     </div>
                     <FaQuoteRight className="absolute bottom-5 right-5 text-4xl text-[#ffba00]/80" />
