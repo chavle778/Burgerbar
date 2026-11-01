@@ -94,7 +94,7 @@ const Title = ({ children, sub }) => (
     <div className="mx-auto mt-4 h-1 w-24 rounded bg-gradient-to-r from-[#ffba00] to-[#ff7a00]" />
     {sub && <p className="mx-auto mt-6 max-w-xl text-[#9a9a9a]">{sub}</p>}
   </Reveal>
-); img
+); 
 
 const LOREM = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.";
 
